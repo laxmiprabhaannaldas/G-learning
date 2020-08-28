@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglist"
+    tools:context=".Interjection">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interjection"
+        android:textColor="#0528B6"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_centerInParent="true"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          An interjection is a word or expression that occurs as an utterance on its own and expresses a spontaneous feeling or reaction.It is a diverse category, encompassing a number of different parts of speech, such as exclamations (ouch!, wow!), curses (damn!), greetings (hey, bye), response particles (okay, oh!, m-hm, huh?), hesitation markers (uh, er, um) and other words (stop, cool). Due to its diverse nature, the category of interjections partly overlaps with a few other categories like profanities, discourse markers and fillers. The use and linguistic discussion of interjections can be traced historically through the Greek and Latin Modistae over many centuries."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          Some examples of Interjections are as follows:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="1.Shh!, be quiet!."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="2.Well done! You won the race"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="3.What! He died."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="4.Oops, I’m sorry. That was my mistake."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="5.‘Hey! Where are you going?’"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0528B6"
+            android:id="@+id/tut"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Visit  tutorials"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#0528B6"
+            android:id="@+id/test"
+            android:text="attempt test"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

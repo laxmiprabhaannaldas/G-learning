@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglist"
+    android:orientation="vertical"
+    tools:context=".Preposition">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preposition"
+        android:textColor="#0528B6"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:justificationMode="inter_word"
+    android:textSize="20dp"
+    android:textColor="#000"
+    android:text="          Prepositions  called adpositions (or broadly, in English, simply prepositions),are a class of words used to express spatial or temporal relations (in, under, towards, before) or mark various semantic roles (of, for)."
+    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          A preposition typically combines with a noun or pronoun, or more generally a noun phrase, this being called its complement, or sometimes object. A preposition comes before its complement; a postposition comes after its complement."
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/tut"
+                android:layout_marginTop="110dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Visit  tutorials"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/test"
+                android:text="attempt test"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

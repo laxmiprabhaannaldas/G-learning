@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglist"
+    tools:context=".Adjective">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adjective"
+                android:textColor="#0528B6"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          In linguistics, an adjective (abbreviated adj) is a word that modifies a noun or noun phrase or describes its referent. Its semantic role is to change information given by the noun."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          Adjectives are one of the main parts of speech of the English language, although historically they were classed together with nouns.Certain words that were traditionally considered to be adjectives, including the, this, my, etc., are today usually classed separately, as determiners."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="Adjectives are of 8 types:"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Descriptive Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Quantitative Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Proper Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Demonstrative Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   5.Possessive Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   6.Interrogative Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   7.Indefinite Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   8.Compound Adjectives"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="1.Decriptive Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          A descriptive adjective is a word which describes nouns and pronouns. Most of the adjectives belong in this type. These adjectives provide information and attribute to the nouns/pronouns they modify or describe. Descriptive adjectives are also called qualitative adjectives."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="2.Quantative Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         A quantitative adjective provides information about the quantity of the nouns/pronouns. This type belongs to the question category of ‘how much’ and ‘how many’."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="3.Proper Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         Proper adjectives are the adjective form of proper nouns. When proper nouns modify or describe other nouns/pronouns, they become proper adjectives. ‘Proper’ means ‘specific’ rather than ‘formal’ or ‘polite.’"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="4.Demonstrative Adjective"
+                android:textStyle="bold"
+                />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         A demonstrative adjective directly refers to something or someone. Demonstrative adjectives include the words: this, that, these, those."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="5.Possessive Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="        A possessive adjective indicates possession or ownership. It suggests the belongingness of something to someone/something."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="6.Interrogative Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       An interrogative adjective asks a question. An interrogative adjective must be followed by a noun or a pronoun. The interrogative adjectives are: which, what, whose. These words will not be considered as adjectives if a noun does not follow right after them. ‘Whose’ also belongs to the possessive adjective type."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="7.Indefinite Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       An indefinite adjective describes or modifies a noun unspecifically. They provide indefinite/unspecific information about the noun. The common indefinite adjectives are few, many, much, most, all, any, each, every, either, nobody, several, some, etc.  "
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="8.Compound Adjective"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       When compound nouns/combined words modify other nouns, they become a compound adjective. This type of adjective usually combines more than one word into a single lexical unit and modifies a noun. They are often separated by a hyphen or joined together by a quotation mark.   "
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/tut"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Visit  tutorials"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0528B6"
+                android:id="@+id/test"
+                android:text="attempt test"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+        </LinearLayout>

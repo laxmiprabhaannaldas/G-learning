@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglist"
+    tools:context=".Pronoun">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pronoun"
+        android:textColor="#0528B6"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          a pronoun has been theorized to be a word that substitutes for a noun or noun phrase. It is a particular case of a pro-form."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          Pronouns have traditionally been regarded as one of the parts of speech, but some modern theorists would not consider them to form a single class, in view of the variety of functions they perform cross-linguistically. An example of a pronoun is 'their', which is both plural and singular. Subtypes include personal and possessive pronouns, reflexive and reciprocal pronouns, demonstrative pronouns, relative and interrogative pronouns, and indefinite pronouns."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          The use of pronouns often involves anaphora, where the meaning of the pronoun is dependent on an antecedent. For example, in the sentence That poor man looks as if he needs a new coat, the antecedent of the pronoun he is dependent on that poor man."
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          The adjective associated with pronoun is pronominal.A pronominal is also a word or phrase that acts as a pronoun. For example, in That's not the one I wanted, the phrase the one (containing the prop-word one) is a pronominal."
+        />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="Pronouns are of 9 types:"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Personal Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Demonstrative Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Interrogative pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Indefinite pronoun "
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   5.Possessive pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   6.Reciprocal pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   7.Relative pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   8.Reflexive pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   9.Intensive pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="1.Personal Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          The personal pronouns are I, you, he, she, it, we, they, and who. More often than not (but certainly not always), they replace nouns representing people. When most people think of pronouns, it is the personal pronouns that usually spring to mind."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="2.Demonstrative Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Demonstrative pronouns are used to demonstrate (or indicate). This, that, these, and those are all demonstrative pronouns."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="3.Interrogative Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Interrogative pronouns are used in questions. Although they are classified as pronouns, it is not easy to see how they replace nouns. Who, which, what, where, and how are all interrogative pronouns."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="4.Indefinite Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Unlike demonstrative pronouns, which point out specific items, indefinite pronouns are used for non-specific things. This is the largest group of pronouns. All, some, any, several, anyone, nobody, each, both, few, either, none, one, and no one are the most common."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="5.Possessive Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Possessive pronouns are used to show possession. The possessive pronouns are mine, yours, his, hers, ours, and theirs."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="6.Reciprocal Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Reciprocal pronouns are used for actions or feelings that are reciprocated. The reciprocal pronouns are each other and one another."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="7.Relative Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Relative pronouns are used to add more information to a sentence. Which, that, who (including whom and whose), and where are all relative pronouns."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="8.Reflexive Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          A reflexive pronoun ends ...self or ...selves and refers to another noun or pronoun in the sentence (usually the subject of the sentence). The reflexive pronouns are myself, yourself, herself, himself, itself, ourselves, yourselves, and themselves."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0528B6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="9.Intensive Pronoun"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          An intensive pronoun (sometimes called an emphatic pronoun) refers back to another noun or pronoun in the sentence to emphasize it (e.g., to emphasize that it is the thing carrying out the action)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0528B6"
+                    android:id="@+id/tut"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Visit  tutorials"
+                    android:textColor="#fff"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#0528B6"
+                    android:id="@+id/test"
+                    android:text="attempt test"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="30dp"
+                    android:textStyle="bold" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

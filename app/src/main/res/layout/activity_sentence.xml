@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bglist"
+    android:layout_height="match_parent"
+    tools:context=".Sentence">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Direct/Indirect Speech"
+                android:textColor="#0826DF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          Direct or quoted speech is spoken or written text that reports speech or thought in its original form phrased by the original speaker; in narrative, it is usually enclosed in quotation marks, but could be enclosed in guillemet. The cited speaker is either mentioned in the inquit or implied."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          Indirect speech is a means of expressing the content of statements, questions or other utterances, without quoting them explicitly as is done in direct speech. For example, He said 'Im coming' is direct speech, whereas He said (that) he was coming is indirect speech. Indirect speech should not be confused with indirect speech acts."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="For example:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="1.Direct Speech=>She says, “I am ill.”"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="  Indirect Speech=>She says that she is ill."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="2.Direct Speech=>I will study”, Mary said."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="  Indirect Speech=>I will study”, said Mary."
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/tut"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Visit  tutorials"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0528B6"
+                android:id="@+id/test"
+                android:text="attempt test"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

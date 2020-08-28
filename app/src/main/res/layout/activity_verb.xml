@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/bglist"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Verb">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            >
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Verb"
+        android:textColor="#0528B6"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="             A verb, from the Latin verbum meaning word, is a word (part of speech) that in syntax conveys an action (bring, read, walk, run, learn), an occurrence (happen, become), or a state of being (be, exist, stand). In the usual description of English, the basic form, with or without the particle to, is the infinitive. In many languages, verbs are inflected (modified in form) to encode tense, aspect, mood, and voice. A verb may also agree with the person, gender or number of some of its arguments, such as its subject, or object. Verbs have tenses: present, to indicate that an action is being carried out; past, to indicate that an action has been done; future, to indicate that an action will be done."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="Verbs are of 5 types:"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   1.Intransitive verbs"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="   2.Transitive verbs"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="   3.Ditransitive verbs"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="   4.Double transitive verbs"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="   5.Copular verbs"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="1.Intransitive verb"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="          An intransitive verb is one that does not have a direct object. Intransitive verbs may be followed by an adverb (a word that addresses how, where, when, and how often) or end a sentence. For example: 'The woman spoke softly.' 'The athlete ran faster than the official.' 'The boy wept.'"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="2.Transitive verb"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="          A transitive verb is followed by a noun or noun phrase. These noun phrases are not called predicate nouns, but are instead called direct objects because they refer to the object that is being acted upon. For example: 'My friend read the newspaper.''The teenager earned a speeding ticket.'A way to identify a transitive verb is to invert the sentence, making it passive. For example: 'The newspaper was read by my friend.' 'A speeding ticket was earned by the teenager.'"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="3.Ditransitive verb"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="          Ditransitive verbs (sometimes called Vg verbs after the verb give) precede either two noun phrases or a noun phrase and then a prepositional phrase often led by to or for. For example: 'The players gave their teammates high fives.' 'The players gave high fives to their teammates.'"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="4.Double transitive verb"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="          Double transitive verbs (sometimes called Vc verbs after the verb consider) are followed by a noun phrase that serves as a direct object and then a second noun phrase, adjective, or infinitive phrase. The second element (noun phrase, adjective, or infinitive) is called a complement, which completes a clause that would not otherwise have the same meaning. For example: 'The young couple considers the neighbors wealthy people.''Some students perceive adults quite inaccurately.' 'Sarah deemed her project to be the hardest she has ever completed.'"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="5.Copular verb"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:justificationMode="inter_word"
+        android:text="          The copular verb be is manifested in eight forms: be, is, am, are, was, were, been, and being in English. These verbs precede nouns or adjectives in a sentence, which become predicate nouns and predicate adjectives similar to those that function with a linking verb. They can also be followed by an adverb of place, which is sometimes referred to as a predicate adverb. For example: 'Her daughter was a writing tutor.''The singers were very nervous.''My house is down the street.'"
+        />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/tut"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Visit  tutorials"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0528B6"
+                android:id="@+id/test"
+                android:text="attempt test"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

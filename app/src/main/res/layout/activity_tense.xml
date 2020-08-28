@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/bglist"
+    tools:context=".Tense">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tense"
+                android:textColor="#0828E6"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          In grammar, tense is a category that expresses time reference with reference to the moment of speaking.Tenses are usually manifested by the use of specific forms of verbs, particularly in their conjugation patterns.The main tenses found in many languages include the past, present, and future. Some languages have only two distinct tenses, such as past and nonpast, or future and nonfuture. There are also tenseless languages, like most of the Chinese languages, though they can possess a future and nonfuture system, which is typical of Sino-Tibetan languages. Recent work by Bittner, Tonnhauser has described the different ways in which tenseless languages nonetheless mark time. On the other hand, some languages make finer tense distinctions, such as remote vs recent past, or near vs remote future."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="Tenses can be classified as 3 main types:"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Present Tense"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Past Tense"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Future Tense"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0828E6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="1.Present Tense"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          The present tense (abbreviated pres or prs) is a grammatical tense whose principal function is to locate a situation or event in the present time.The present tense is used for actions in a time which are happening now. In order to explain and understand present tense, it is useful to imagine time as a line on which the past tense, the present and the future tense are positioned. The term present tense is usually used in descriptions of specific languages to refer to a particular grammatical form or set of forms; these may have a variety of uses, not all of which will necessarily refer to present time. For example, in the English sentence 'My train leaves tomorrow morning', the verb form leaves is said to be in the present tense, even though in this particular context it refers to an event in future time. Similarly, in the historical present, the present tense is used to narrate events that occurred in the past."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          There are two common types of present tense form in most Indo-European languages: the present indicative (the combination of present tense and indicative mood) and the present subjunctive (the combination of present tense and subjunctive mood). The present tense is mainly classified into four parts:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          There are 4 types of Present tense:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Simple Present Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Present Continuous Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Present Perfect Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Present Perfect Continuous Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Simple Present Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The simple present (also called present simple or present indefinite) is a verb tense which is used to show repetition, habit or generalization. Less commonly, the simple present can be used to talk about scheduled actions in the near future and, in some cases, actions happening now."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(VERB FORM 1)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) speak(verb1) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Present Continuous Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The present continuous (also called present progressive) is a verb tense which is used to show that an ongoing action is happening now, either at the moment of speech or now in a larger sense. The present continuous can also be used to show that an action is going to take place in the near future."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(AM/IS/ARE)+(VERB-ING FORM)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) are speaking(verb4) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Present Perfect Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The present perfect tense is used when talking about experiences from the past, a change or a situation that has happened in the past but is still continuing today. This tense is an important part of English grammar since it demonstrates that actions or events in the past have an effect on the present situation."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(HAS/HAVE)+(VERB FORM 3)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) have spoken(verb3) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Present Perfect Continuous Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The present perfect continuous (also called present perfect progressive) is a verb tense which is used to show that an action started in the past and has continued up to the present moment. The present perfect continuous usually emphasizes duration, or the amount of time that an action has been taking place."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(HAS/HAVE)+BEEN+(VERB-ING FORM)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) have been speaking(verb4) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0828E6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="2.Past Tense"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          The past tense is a grammatical tense whose function is to place an action or situation in past time. In languages which have a past tense, it thus provides a grammatical means of indicating that the event being referred to took place in the past. Examples of verbs in the past tense include the English verbs sang, went and was."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          There are 4 types of Past tense:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Simple Past Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Past Continuous Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Past Perfect Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Past Perfect Continuous Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Simple Past Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The simple past tense, sometimes called the preterite, is used to talk about a completed action in a time before now. The simple past is the basic form of past tense in English. The time of the action can be in the recent past or the distant past and action duration is not important."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(VERB FORM 2)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) spoke(verb2) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Past Continuous Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The past continuous tense, also known as the past progressive tense, refers to a continuing action or state that was happening at some point in the past. ... It can also be used to describe something that was happening continuously in the past when another action interrupted it."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(WAS/WERE)+(VERB-ING FORM)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) was speaking(verb4) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Past Perfect Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The past perfect, also called the pluperfect, is a verb tense used to talk about actions that were completed before some point in the past. ... The past perfect tense is for talking about something that happened before something else. Imagine waking up one morning and stepping outside to grab the newspaper."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(HAD)+(VERB FORM 3)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) had spoken(verb3) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Present Perfect Continuous Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The past perfect continuous tense (also known as the past perfect progressive tense) shows that an action that started in the past continued up until another time in the past. The past perfect continuous tense is constructed using had been + the verb's present participle (root + -ing)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(HAD)+BEEN+(VERB-ING FORM)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) had been speaking(verb4) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#0828E6"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="3.Future Tense"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          In grammar, a future tense (abbreviated fut) is a verb form that generally marks the event described by the verb as not having happened yet, but expected to happen in the future. An example of a future tense form is the French aimera, meaning 'will love', derived from the verb aimer ('love'). English does not have a future tense formed by verb inflection in this way, although it has a number of ways to express the future, particularly the construction with the auxiliary verb will or shall or is/am/are going to and grammarians differ in whether they describe such constructions as representing a future tense in English."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          The 'future' expressed by the future tense usually means the future relative to the moment of speaking, although in contexts where relative tense is used it may mean the future relative to some other point in time under consideration."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          There are 4 types of Future tense:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Simple Future Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Future Continuous Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Future Perfect Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Future Perfect Continuous Tense"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   1.Simple Future Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The simple future is a verb tense that's used to talk about things that haven't happened yet. This year, Jen will read War and Peace. It will be hard, but she's determined to do it. Use the simple future to talk about an action or condition that will begin and end in the future."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(SHALL/WILL)+(VERB FORM 1)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) will speake(verb1) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   2.Future Continuous Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The future continuous tense, sometimes also referred to as the future progressive tense, is a verb tense that indicates that something will occur in the future and continue for an expected length of time. It is formed using the construction will + be + the present participle (the root verb + -ing)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+WILL+BE+(VERB-ING FORM)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) will be speaking(verb4) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   3.Future Perfect Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The future perfect is a verb tense used for actions that will be completed before some other point in the future. The parade will have ended by the time Chester gets out of bed. ... The future perfect tense is for talking about an action that will be completed between now and some point in the future."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(SHALL/WILL)+HAVE+(VERB FORM 3)+(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) will have spoken(verb3) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#0828E6"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="   4.Future Perfect Continuous Tense"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The future perfect continuous, also sometimes called the future perfect progressive, is a verb tense that describes actions that will continue up until a point in the future. The future perfect continuous consists of will + have + been + the verb's present participle (verb root + -ing)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYNTAX:(SUBJECT)+(SHALL/WILL)+HAVE+BEEN+(VERB-ING FORM) +(OBJECT)"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      You(Object) will have been speaking(verb4) English(object)."
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/tut"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Visit  tutorials"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0528B6"
+                android:id="@+id/test"
+                android:text="attempt test"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

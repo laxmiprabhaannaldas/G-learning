@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglist"
+    android:layout_height="match_parent"
+    tools:context=".Notalso">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Only-But Also"
+        android:textColor="#0528B6"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          The construction not only....but (also) is called a correlative conjunction. It is used to present two related pieces of information. Both pieces of information are being presented by the writer as surprising or unexpected, with the second one being even more surprising than the first."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          When using not only . . . but also in a sentence, parallelism should be the goal. It means that the words following both parts of this correlative conjunction (i.e., not only and but also) should belong to the same parts of speech. For example, if a verb follows not only, then a verb should also follow but also."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="1.Not only was it raining all day at the wedding but also the band was late. "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="2.Not only will they paint the outside of the house but also the inside."
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0528B6"
+            android:id="@+id/tut"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Visit  tutorials"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#0528B6"
+            android:id="@+id/test"
+            android:text="attempt test"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

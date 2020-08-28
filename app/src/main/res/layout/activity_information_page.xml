@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bglist"
+    android:layout_height="match_parent"
+    tools:context=".InformationPage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:alpha="0.8"
+            android:layout_height="match_parent"
+            >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:justificationMode="inter_word"
+        android:textColor="#DD0224F1"
+        android:text="G-LEARN"
+        android:textAlignment="center"
+        android:id="@+id/t1" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:textStyle="normal"
+    android:layout_below="@id/t1"
+    android:fontFamily="serif"
+    android:justificationMode="inter_word"
+    android:textColor="#DD0224F1"
+    android:text="         In now a days English is the most common and international language but user have to think that really they are perfect in the English speaking. By using this application user can easily learn english grammar which helps them to talk fluent and fast English."
+    android:id="@+id/txt1"
+    android:layout_margin="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/txt2"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/txt1"
+        android:textStyle="normal"
+        android:justificationMode="inter_word"
+        android:textColor="#DD0224F1"
+        android:text="       Grammar is important because it is the language that makes it possible for us to talk about language. Grammar names the types of words and word groups that make up sentences not only in English but in any language." />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="590dp"
+                android:text="start learning"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#DD0224F1"
+                android:textColor="#FFF"
+                android:id="@+id/btn_learn"
+                android:textSize="35dp"
+                />
+        </RelativeLayout>    </ScrollView>   </RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SentenceTest"></activity>
+        <activity android:name=".VoiceTest" />
+        <activity android:name=".NotalsoTest" />
+        <activity android:name=".NumberTest" />
+        <activity android:name=".GenderTest" />
+        <activity android:name=".PunctuationTest" />
+        <activity android:name=".TenseTest" />
+        <activity android:name=".InterjectionTest" />
+        <activity android:name=".ConjunctionTest" />
+        <activity android:name=".PrepositionTest" />
+        <activity android:name=".AdverbTest" />
+        <activity android:name=".VerbTest" />
+        <activity android:name=".AdjectiveTest" />
+        <activity android:name=".PronounTest" />
+        <activity android:name=".NounTest" />
+        <activity android:name=".ResultDisplay" />
+        <activity android:name=".ArticalTest" />
+        <activity android:name=".InformationPage" />
+        <activity android:name=".Notalso" />
+        <activity android:name=".Sentence" />
+        <activity android:name=".Numbers" />
+        <activity android:name=".Gender" />
+        <activity android:name=".Punctuations" />
+        <activity android:name=".Articals" />
+        <activity android:name=".Voice" />
+        <activity android:name=".Tense" />
+        <activity android:name=".Interjection" />
+        <activity android:name=".Conjunction" />
+        <activity android:name=".Preposition" />
+        <activity android:name=".Adverb" />
+        <activity android:name=".Verb" />
+        <activity android:name=".Adjective" />
+        <activity android:name=".Pronoun" />
+        <activity android:name=".Noun" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

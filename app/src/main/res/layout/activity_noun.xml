@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglist"
+
+    tools:context=".Noun">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noun"
+        android:textColor="#0528B6"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          A noun is a kind of wordthat is usually the name of something such as a person, place, thing, animal, or idea. In English, nouns can be singular or plural."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          Nouns often need a word called an article or determiner.These words usually do not go with other kinds of words like verbs or adverbs.  In English, there are more nouns than any other kind of word."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="          Every language in the world has nouns, but they are not always used in the same ways. They also can have different properties in different languages. In some other languages, nouns do not change for singular and plural, and sometimes there is no word for the."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="          Examples of nouns: time, people, way, year, government, day, world, life, work, part, number, house, system, company, end, party, information."
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0528B6"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="20dp"
+        android:text="Nouns are of 6 types:"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   1.Common Noun"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   2.Proper Noun"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   3.Concrete Noun"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   4.Abstract Noun"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   5.Collective Noun"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:justificationMode="inter_word"
+        android:text="   6.Count and mass Noun"
+        android:textStyle="bold"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="1.Common Noun"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          A common noun is a noun that refers to people or things in general, e.g. boy, country, bridge, city, birth, day, happiness."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="2.Proper Noun"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          A proper noun is a name that identifies a particular person, place, or thing, e.g. Steven, Africa, London, Monday. In written English, proper nouns begin with capital letters."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="3.Concrete Noun"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          A concrete noun is a noun which refers to people and to things that exist physically and can be seen, touched, smelled, heard, or tasted. Examples include dog, building, coffee, tree, rain, beach, tune."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="4.Abstract Noun"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          An abstract noun is a noun which refers to ideas, qualities, and conditions - things that cannot be seen or touched and things which have no physical reality, e.g. truth, danger, happiness, time, friendship, humour."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="5.Collective Noun"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          Collective nouns refer to groups of people or things, e.g. audience, family, government, team, jury. In American English, most collective nouns are treated as singular, with a singular verb:"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          The whole family was at the table."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          In British English, the preceding sentence would be correct, but it would also be correct to treat the collective noun as a plural, with a plural verb:"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          The whole family were at the table."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          A noun may belong to more than one category. For example, happiness is both a common noun and an abstract noun, while Mount Everest is both a concrete noun and a proper noun."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="6.Count and Mass Noun"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          Nouns can be either countable or uncountable. Countable nouns (or count nouns) are those that refer to something that can be counted. Uncountable nouns (or mass nouns) do not typically refer to things that can be counted and so they do not regularly have a plural form."
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0528B6"
+            android:id="@+id/tut"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Visit  tutorials"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#0528B6"
+            android:id="@+id/test"
+            android:text="attempt test"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

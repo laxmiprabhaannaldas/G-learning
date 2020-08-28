@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bglist"
+    android:layout_height="match_parent"
+    tools:context=".Conjunction">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conjunction"
+                android:textColor="#0528B6"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          In grammar, a conjunction (abbreviated conj or cnj) is a part of speech that connects words, phrases, or clauses that are called the conjuncts of the conjunctions. The term discourse marker is mostly used for conjunctions joining sentences. This definition may overlap with that of other parts of speech, so what constitutes a 'conjunction' must be defined for each language. In English a given word may have several senses, being either a preposition or a conjunction depending on the syntax of the sentence. For example, 'after' is a preposition in 'he left after the fight', but it is a conjunction in 'he left after they fought'. In general, a conjunction is an invariable (noninflected) grammatical particle and it may or may not stand between the items conjoined."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:text="          The definition of a conjunction may also be extended to idiomatic phrases that behave as a unit with the same function, e.g. 'as well as', 'provided that'.A simple literary example of a conjunction: 'the truth of nature, and the power of giving interest'. (Samuel Taylor Coleridge's Biographia Literaria).A conjunction may be placed at the beginning of a sentence: 'But some superstition about the practice persists.'"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0528B6"
+                android:id="@+id/tut"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Visit  tutorials"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0528B6"
+                android:id="@+id/test"
+                android:text="attempt test"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

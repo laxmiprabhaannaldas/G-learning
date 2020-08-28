@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglist"
+    tools:context=".Voice">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voice"
+        android:textColor="#0528B6"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          In grammar, the voice of a verb describes the relationship between the action (or state) that the verb expresses and the participants identified by its arguments (subject, object, etc.). When the subject is the agent or doer of the action, the verb is in the active voice. When the subject is the patient, target or undergoer of the action, the verb is said to be in the passive voice. Voice is sometimes called diathesis."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For example, in the sentence:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          The cat ate the mouse."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="The verb 'ate' is in the active voice. However, in the sentence:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          The mouse was eaten by the cat."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="the verbal phrase 'was eaten' is passive."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="In a transformation from an active-voice clause to an equivalent passive-voice construction, the subject and the direct object switch grammatical roles. The direct object gets promoted to subject, and the subject demoted to an (optional) adjunct. In the first example above, the mouse serves as the direct object in the active-voice version, but becomes the subject in the passive version. The subject of the active-voice version, the cat, becomes part of a prepositional phrase in the passive version of the sentence, and can be left out entirely."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:textStyle="bold"
+            android:text="Here are some tenses which cant be converted in Passive voice:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="1. Present Perfect Continuous Tense"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="2. Past Perfect Continuous Tense"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="3. Future Continuous Tense"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="4. Future Perfect Continuous Tense"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="1.Simple Present Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          When the active verb is in the simple present tense, we make passive verb forms with is/am/are + past participle form of the verb. Note that the object of the active verb becomes the subject of the passive verb. The subject of the active verb becomes the object of the passive verb. However, in most cases, the object is not mentioned in the passive voice."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+is/are/am+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He eat Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple is eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="2.Present Continuous Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="         Passive sentences in the present continuous tense have the following structure: Object of the active sentence + is/are/am + being + past participle form of the verb + by + subject of the active sentence. ... Active: I am reading a story. Passive: A story is being read by me."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+being+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He is eating Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple is being eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="2.Present Perfect Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="         In the present perfect tense we make passive verb forms by putting has/have + been before the past participle form of the verb. Sentences are given in the active voice. Change them into the passive."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+has/have+been+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He has been eaten Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple has been eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="1.Simple Past Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          The general rule for sentences in simple past passive is: 'Object + was / were + past participle of main verb (third form)' in an affirmative sentence. 'Was / were + object + past participle of main verb (third form)' in the case of a question. ... ' in passive voice."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+was/were+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He ate Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple was eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="2.Past Continuous Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="         Rules of Active and Passive voice (mentioned below) shows that helping verb 'Was/Were + Being' is used with 3rd form of verb for making Passive Voice of Past Continuous Tense. ... In all types of sentences - Positive, Negative and Interrogative, 3rd form of verb is used in Passive Voice."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+was/were+being+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He was eating Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple was being eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="2.Past Perfect Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="         The past perfect tense in the passive voice is made by putting had been before the past participle form of the verb.Rules of Active and Passive voice (mentioned below) shows that helping verb 'Had + Been' is used with 3rd form of verb for making Passive Voice of Past Perfect Tense."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+had+been+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He had eaten Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple had eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="1.Simple Future Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="          In simple future tense the Active voice syntax is same as the syntax of tense.It can be converted in future tense using will+hhal+be after the object."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+will/shall+have+been+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He will eat Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple will have been eaten by him."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#0528B6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="2.Future Perfect Tense"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="        Future Perfect Passive is used to talk about actions or events that will be finished by a certain moment in the future. When we use this tense we are projecting ourselves forward into the future and looking back at an action that will be completed some time later than now. In the future perfect tense, the passive voice sentence takes this form: 'Object + will/shall + have + been + past participle of the main verb. ... Just as in so many other instances, the passive voice takes a different form when posing a question by starting the sentence with 'will/shall"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="SYNTAX:Object+will/shall+have+been+Verb3+by+Subject2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="For Example:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Active Voice: He will eaten Apple."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="Passive Voice:Apple will have been eaten by him."
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0528B6"
+            android:id="@+id/tut"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Visit  tutorials"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#0528B6"
+            android:id="@+id/test"
+            android:text="attempt test"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
